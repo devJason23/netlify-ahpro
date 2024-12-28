@@ -152,7 +152,7 @@ export const LandingPage = () => {
               {[1, 2, 3, 4, 5, 6, 7].map((i) => (
                 <img
                   key={i}
-                  src={`/images/testimonials/testimonial${i}.jpg`}
+                  src={`/images/testimonials/testimonial${i}.webp`}
                   alt="Customer testimonial"
                   className="w-10 h-10 rounded-full border-2 border-white object-cover"
                 />
@@ -168,7 +168,7 @@ export const LandingPage = () => {
           <div>
             <div className="rounded-lg shadow-lg overflow-hidden">
               <img
-                src="/images/testimonials/digital-air-pump.jpg"
+                src="/images/testimonials/digital-air-pump.webp"
                 alt="Professional Car Air Pump"
                 className="w-full h-auto"
               />
