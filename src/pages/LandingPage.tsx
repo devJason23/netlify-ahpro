@@ -149,10 +149,18 @@ export const LandingPage = () => {
           </p>
           <div className="flex items-center justify-center gap-4 mb-8">
             <div className="flex -space-x-2">
-              {[1, 2, 3, 4, 5].map((i) => (
-                <div
-                  key={i}
-                  className="w-10 h-10 rounded-full bg-gray-200 border-2 border-white"
+              {[
+                'jakob-owens-IkMJcGDZLVs-unsplash',
+                'rayul-_M6qy9oHqlI-unsplash',
+                'jessica-felicio-_cvwXhGqG-o-unsplash',
+                'luke-braswell-oYFv-_JKsVk-unsplash',
+                'ian-dooley-d1UPkiFd04A-unsplash'
+              ].map((imageName) => (
+                <img
+                  key={imageName}
+                  src={`/images/testimonials/${imageName}.jpg`}
+                  alt="Customer testimonial"
+                  className="w-10 h-10 rounded-full border-2 border-white object-cover"
                 />
               ))}
             </div>
