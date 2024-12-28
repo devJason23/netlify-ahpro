@@ -5,7 +5,7 @@ export const PaymentForm = () => {
     <div className="space-y-6">
       
         href="https://buy.stripe.com/00gaHmghIeWc4364gj"
-        className="w-full bg-blue-600 hover:bg-blue-700 text-white py-4 px-6 rounded-lg font-bold flex items-center justify-center gap-2 transition-colors no-underline"
+        className="block w-full bg-blue-600 hover:bg-blue-700 text-white py-4 px-6 rounded-lg font-bold text-center transition-colors no-underline"
       >
         Complete Purchase with Card
       </a>
