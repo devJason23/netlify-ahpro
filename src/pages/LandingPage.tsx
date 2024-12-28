@@ -149,13 +149,14 @@ export const LandingPage = () => {
           </p>
           <div className="flex items-center justify-center gap-4 mb-8">
             <div className="flex -space-x-2">
-              {[
-                'jakob-owens-IkMJcGDZLVs-unsplash',
-                'rayul-_M6qy9oHqlI-unsplash',
-                'jessica-felicio-_cvwXhGqG-o-unsplash',
-                'luke-braswell-oYFv-_JKsVk-unsplash',
-                'ian-dooley-d1UPkiFd04A-unsplash'
-              ].map((imageName) => (
+              {[1, 2, 3, 4, 5].map((i) => (
+  <img
+    key={i}
+    src={`/images/testimonials/testimonial${i}.jpg`}
+    alt="Customer testimonial"
+    className="w-10 h-10 rounded-full border-2 border-white object-cover"
+  />
+))}
                 <img
                   key={imageName}
                   src={`/images/testimonials/${imageName}.jpg`}
