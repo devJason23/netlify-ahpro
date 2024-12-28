@@ -149,7 +149,7 @@ export const LandingPage = () => {
           </p>
           <div className="flex items-center justify-center gap-4 mb-8">
             <div className="flex -space-x-2">
-              {[1, 2, 3, 4, 5].map((i) => (
+              {[1, 2, 3, 4, 5, 6, 7].map((i) => (
                 <img
                   key={i}
                   src={`/images/testimonials/testimonial${i}.jpg`}
@@ -168,7 +168,7 @@ export const LandingPage = () => {
           <div>
             <div className="rounded-lg shadow-lg overflow-hidden">
               <img
-                src="/images/testimonials/digital-air-pump.png"
+                src="/images/testimonials/digital-air-pump.jpg"
                 alt="Professional Car Air Pump"
                 className="w-full h-auto"
               />
@@ -252,6 +252,32 @@ export const LandingPage = () => {
                 <p className="font-semibold">{testimonial.name}</p>
               </div>
             ))}
+          </div>
+        </div>
+
+        <div className="bg-white p-8 rounded-lg mb-16 shadow-lg">
+          <h2 className="text-3xl font-bold mb-8 text-center">
+            See It In Action
+          </h2>
+          <div className="max-w-3xl mx-auto">
+            <div className="relative rounded-xl overflow-hidden shadow-2xl">
+              <video
+                controls
+                className="w-full h-auto"
+                poster="/images/testimonials/digital-air-pump.jpg"
+              >
+                <source 
+                  src="/videos/Auto Enhancements Air Pump Demonstration.mp4" 
+                  type="video/mp4"
+                />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div className="text-center mt-6">
+              <p className="text-lg text-gray-700">
+                Watch how quickly and easily you can inflate your tires with professional precision
+              </p>
+            </div>
           </div>
         </div>
 
