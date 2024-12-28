@@ -150,16 +150,9 @@ export const LandingPage = () => {
           <div className="flex items-center justify-center gap-4 mb-8">
             <div className="flex -space-x-2">
               {[1, 2, 3, 4, 5].map((i) => (
-  <img
-    key={i}
-    src={`/images/testimonials/testimonial${i}.jpg`}
-    alt="Customer testimonial"
-    className="w-10 h-10 rounded-full border-2 border-white object-cover"
-  />
-))}
                 <img
-                  key={imageName}
-                  src={`/images/testimonials/${imageName}.jpg`}
+                  key={i}
+                  src={`/images/testimonials/testimonial${i}.jpg`}
                   alt="Customer testimonial"
                   className="w-10 h-10 rounded-full border-2 border-white object-cover"
                 />
