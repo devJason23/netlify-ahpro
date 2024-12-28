@@ -168,7 +168,7 @@ export const LandingPage = () => {
           <div>
             <div className="rounded-lg shadow-lg overflow-hidden">
               <img
-                src="/images/testimonials/digital-air-pump.jpg"
+                src="/images/testimonials/digital-air-pump.png"
                 alt="Professional Car Air Pump"
                 className="w-full h-auto"
               />
