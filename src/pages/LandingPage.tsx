@@ -264,7 +264,7 @@ export const LandingPage = () => {
               <video
                 controls
                 className="w-full h-auto"
-                poster="/images/testimonials/digital-air-pump.jpg"
+                poster="/images/testimonials/video-thumbnail.webp"
               >
                 <source 
                   src="/videos/Auto Enhancements Air Pump Demonstration.mp4" 

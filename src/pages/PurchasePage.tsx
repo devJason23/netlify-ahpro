@@ -16,7 +16,7 @@ export const PurchasePage = () => {
             <div className="mb-8">
               <div className="flex items-center gap-4 mb-4">
                 <img 
-                  src="https://autoenhancements.co/cdn/shop/products/S5eb9e7d5f0b44c66b5d8ecd0f1ea1f5cj_1024x1024@2x.jpg"
+                  src="/images/testimonials/digital-air-pump.webp"
                   alt="Portable Car Air Pump"
                   className="w-24 h-24 object-cover rounded"
                 />
